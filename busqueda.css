@@ -256,7 +256,7 @@
 .hood > p {
   text-align: center;
   font-size: 0.92rem;
-  color: var(--accent-color);
+  color: var(--border-dashed);
   font-weight: 600;
   margin-top: 25px;
   background: var(--bg-card);

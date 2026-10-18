@@ -1,17 +1,3 @@
-:root 
-.little {
-  --bg-main: #33291f;
-  --bg-card: #332e29;
-  --border-pink: #b59f49;
-  --border-dashed: #856f1b;
-  --accent-color: #b89200;
-  --text-dark: #b8b19e;
-  --text-sub: #857b62;
-  --shadow-soft: 0 4px 12px rgb(184 168 91 / 8%);
-  --font-main: "Georgia", serif;
-}
-
-
 .little br {
   display: none;
 }
@@ -27,6 +13,15 @@
   box-sizing: border-box;
   line-height: 1.6;
   font-size: 0.95rem;
+    --bg-main: #33291f;
+  --bg-card: #332e29;
+  --border-pink: #b59f49;
+  --border-dashed: #856f1b;
+  --accent-color: #b89200;
+  --text-dark: #b8b19e;
+  --text-sub: #857b62;
+  --shadow-soft: 0 4px 12px rgb(184 168 91 / 8%);
+  --font-main: "Georgia", serif;
 }
 
 .header-img {

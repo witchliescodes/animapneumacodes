@@ -1,0 +1,209 @@
+/* ======================================================
+   PALETA DE COLORES Y ESTILOS GENERALES
+   ====================================================== */
+:root {
+  --bg-main: #33291f;
+  --bg-card: #332e29;
+  --border-pink: #b59f49;
+  --border-dashed: #856f1b;
+  --accent-color: #b89200;
+  --text-dark: #b8b19e;
+  --text-sub: #857b62;
+  --shadow-soft: 0 4px 12px rgb(184 168 91 / 8%);
+  --font-main: "Georgia", serif;
+}
+
+body {
+  background-color: #f2ecee;
+  font-family: var(--font-main);
+  color: var(--text-dark);
+  margin: 0;
+  padding: 30px 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.little br {
+  display: none;
+}
+
+.little {
+  background-color: var(--bg-main);
+  border: 1px solid var(--border-pink);
+  border-radius: 16px;
+  width: 100%;
+  max-width: 720px;
+  padding: 30px;
+  box-shadow: var(--shadow-soft);
+  box-sizing: border-box;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.header-img {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.header-img img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--border-pink, var(--text-dark));
+  outline: 2px dashed var(--accent-color, var(--border-pink));
+  outline-offset: 4px; /* Hace un efecto de marco doble punteado super lindo */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.header-img img:hover {
+  transform: scale(1.04) rotate(-2deg); /* Un pequeño efecto interactivo al pasar el cursor */
+}
+
+.little > span {
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.little h1 {
+  font-size: 1.3rem;
+  color: var(--accent-color);
+  margin: 0 0 5px 0;
+  letter-spacing: 1px;
+}
+
+.little > span > i {
+  font-size: 0.9rem;
+  color: var(--text-sub);
+}
+
+.little > p br {
+  display: block;
+}
+
+.little > p {
+  background-color: var(--bg-card);
+  border: 1px dashed var(--border-dashed);
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+.red h2 {
+  font-size: 1.1rem;
+  color: var(--accent-color);
+  margin: 20px 0 3px 0;
+  border-bottom: 1px solid var(--border-pink);
+  padding-bottom: 4px;
+}
+
+.red span > i {
+  font-size: 0.85rem;
+  color: var(--text-sub);
+  display: block;
+  margin-bottom: 10px;
+}
+
+.situ br {
+  display: block;
+}
+.situ {
+  background-color: var(--bg-card);
+  border-left: 4px solid var(--accent-color);
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: var(--shadow-soft);
+  margin-bottom: 20px;
+}
+
+.situ a {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--border-pink);
+  font-weight: bold;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease;
+}
+
+.situ a:hover {
+  transform: translateY(-2px);
+  color: var(--accent-color);
+}
+
+.hood {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px dashed var(--border-pink);
+}
+
+.hood > span {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hood h1 {
+  font-size: 1.25rem;
+  color: var(--accent-color);
+  margin: 0 0 4px 0;
+}
+
+.granny {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.granny > span br {
+  display: block;
+}
+
+.granny > span {
+  display: block;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-pink);
+  border-radius: 10px;
+  padding: 15px 18px;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.2s ease;
+}
+
+.granny > span:hover {
+  transform: translateY(-2px);
+}
+
+.granny strong {
+  display: block;
+  color: var(--accent-color);
+  font-size: 1rem;
+  margin-bottom: 8px;
+  border-bottom: 1px dashed var(--border-dashed);
+  padding-bottom: 5px;
+}
+
+.granny strong i {
+  font-weight: normal;
+  font-size: 0.85rem;
+  color: var(--text-sub);
+}
+
+.hood > p br {
+  display: block;
+}
+.hood > p {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--accent-color);
+  font-weight: bold;
+  margin-top: 25px;
+  background-color: var(--bg-card);
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px dashed var(--border-dashed);
+}
